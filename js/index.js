@@ -1,7 +1,7 @@
 //var myPolygon;
 function initialize() {
   // Map Center
-  var myLatLng = new google.maps.LatLng(33.5190755, -111.9253654);
+  var myLatLng = new google.maps.LatLng(45.432124, 5.570816);
   // General Options
   var mapOptions = {
     zoom: 12,
@@ -11,9 +11,9 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
   // Polygon Coordinates
   var triangleCoords = [
-    new google.maps.LatLng(33.5362475, -111.9267386),
-    new google.maps.LatLng(33.5104882, -111.9627875),
-    new google.maps.LatLng(33.5004686, -111.9027061)
+    new google.maps.LatLng(45.41, 5.565),
+    new google.maps.LatLng(45.432124, 5.59),
+    new google.maps.LatLng(45.45, 5.59)
   ];
   // Styling & Controls
   myPolygon = new google.maps.Polygon({
